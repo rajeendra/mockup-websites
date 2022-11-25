@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+   
+    <head>
+
+        <!-- PWA config info -->
+        <meta name="theme-color" content="#000000" />
+        <meta name="description" content="Web site created using create-react-app" />
+        <meta name="apple-mobile-web-app-status-bar" content="#000000" />
+        <link rel="apple-touch-icon" href="./logo_192_192.png" />
+        <link rel="manifest" href="./manifest.json" />
+    
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">         -->
+        <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="css/cea.css" type="text/css">
+
+        <link rel="icon" type="image/ico" href="image/faviconico/favicon.ico" />
+        <style>
+        /* .bg-primary {
+            background-color: #4d1146 !important;
+        } */
+
+        /* .demo-seal{
+            src: "image/demov_tran.png";
+            width: 100px;
+            height: 100px;
+        } */
+
+        </style>
+
+        <title>CEA</title>
+   </head>
+   
+   <body>
+
+    <!-- =========================================================
+    |  Demo seal
+    ========================================================== -->      
+    <div id="demo-seal" style="display: none;">
+            <a href="#0"><img src="image/demov_tran.png" width="106" height="100" style="position: fixed; top:70px; right: 20px; z-index: 1;"/></a>
+    </div>
+      
+    <!-- =========================================================
+    |  Main menu 
+    ========================================================== -->   
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary" style="padding-right: 40px;">
+
+        <div>
+            <!-- <span id="top-left-navigator" style="visibility:hidden; float: left;"><i class="fa fa-reply fa-2x wow bounceIn" style="color: white; padding: unset; padding-right: 10px; vertical-align: text-top"></i></span>  -->
+            <span id="top-left-navigator" style="visibility:hidden; float: left;">
+                <a href="#0">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16" style="color: white; padding-right: 6px;">
+                    <path d="M3.86 8.753l5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                </svg>
+                </a>                         
+            </span>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria5controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation" style="padding: unset">
+                <span><i class="fa fa-bars  fa-2x wow bounceIn" style="color: white; padding: unset;"></i></span>
+
+                
+                <!-- <span class="navbar-toggler-icon" ></span> -->
+            </button>
+        </div>        
+
+        <a class="navbar-brand" href="#aboutx"><img src="image/CEA_Logo.jpeg" width="46" height="40" class="rounded"/></a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home" >
+                        <div data-toggle="collapse" data-target="#navbarTogglerDemo01">Home </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutx">
+                        <div data-toggle="collapse" data-target="#navbarTogglerDemo01" >About</div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a id="pLinkId" class="nav-link" href="#project">
+                    <div data-toggle="collapse" data-target="#navbarTogglerDemo01" >Projects</div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact" >
+                        <div data-toggle="collapse" data-target=".navbar-collapse.show">Contact</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- =========================================================
+    |  Home 
+    ========================================================== -->   
+    <header id="home" class="masthead">
+        <div class="container">
+        <div class="masthead-company">Consulting Engineers and Architects Associated | CEA </div>
+        <div class="masthead-subheading"></div>
+        <div class="masthead-subheading">Welcome To Our Company!</div>
+        <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+        <p style="color: black; font-weight: bold; font-style: italic;">Consulting Engineers & Architects Associated (Pvt) Ltd. is a multidisciplinary organization and provides complete, 
+            comprehensive and integrated consultancy services in the fields of Highway Engineering, Transportation, 
+            Urban Development, Water and Sanitary Engineering, Architecture, Buildings, Environmental and Social Impact 
+            Assessments and related facilities. The services embrace all aspects of infrastructure development and 
+            rehabilitation projects, both urban and rural. The firm has experienced and qualified Engineers, 
+            Architects, other Professionals and support staff together with the ready availability of services of a large number 
+            of Specialist Consultants.
+        </p>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#aboutx">Tell Me More</a>
+        </div>
+    </header>
+
+    <!-- =========================================================
+    |  About 
+    ========================================================== -->          
+    <div id="aboutx" data-section="about" class="about-theme">
+        <div class="container">
+        <div class="row">
+            <div class="col-sm-6" >
+                <div><h3><span>About</span> the company</h3></div>
+                <p>Consulting Engineers and Architects Associated (CEA) was established in February, 
+                    1979, by Neville Kotagama, a senior Highway Engineer. 
+                    The aim of this engineering consultancy firm was to undertake multi-disciplinary 
+                    consultancy work with an emphasis on the Highways and Transport, Water supply and 
+                    Drainage, Architecture, Urban Planning, Environment Management and Social Science, 
+                    Water Resources and Irrigation sectors.
+                </p>
+                <p>The firm was incorporated in 2007 as a Limited Liability Company and CEA offices are located in Sri Jayawardenapura, Kotte, the administrative capital of Sri Lanka. A majority of the shareholders and the management of the company are Engineers.</p>
+                <p class="bdr"></p>
+            </div>
+            <div class="col-sm-6" >
+                <div><h3><span><span>Our</span> Vision, Mission</span> and Core Values</h3></div>
+                <p>CEA aims to provide comprehensive consultancy services to all clients integrating the various disciplines necessary to carry out projects from inception to successful completion. 
+                    The firm places importance to providing an economical service to the clients and lays emphasis on the appropriate design procedures and efficient Contract and Construction Management 
+                    Services to ensure successful and speedy completion of the projects. We have the necessary expertise at management level to identify and intervene early to take corrective actions in 
+                    the unlikely event of any potential problems in our assignments.
+                </p>
+                <p>The firm places great importance to the co-ordination at all stages of project development and Directors and Senior Associates oversee all activities of an assignment from inception to completion. 
+                    The firm also can provide overall management services for major projects, which include development of master plans and programmes, carrying out feasibility studies, environmental social impact assessments, 
+                    detailed designs, project management, administration, progress and financial control of contracts and construction management.
+                </p>
+                <p>We operate under the premise of customer being the king, quality and continuous improvement as the core ingredient of success, respecting and valuing our employees and giving them opportunities 
+                    to be the best they can be as the foundation of our growth, and innovation as the key to our survival.
+                </p>
+                <p class="bdr"></p>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 10px;">
+            <div class="col-sm-6 col-sm-offset-6" >
+                <h4>Why Choose Us</h4>
+                <p></p>
+                <ul>
+                    <li><span>We provide industry standards compliant solutions using most appropiate modern technologies</span></li>
+                    <li><span>As we are based in Colombo, Sri Lanka, we have the competitive advantage over others in offering competitive rates to our 
+                    clients while guaranteeing value for money</span>
+                    </li>
+                    <li><span>Extensive experience in providing professional business solutions for a wide range of business sectors (Domain Expertise)</span></li>
+                    <li><span>Our strategy is to develop and deliver customer process specific solutions that exactly meet the requirements that our clients bring to 
+                    the table. While sharing our technical and domain expertise, we always make it a habit to sit with you and discuss till your requirements are fully 
+                    understood and how to cater them is finalyzed.</span>
+                    </li>
+                </ul>
+                <p class="bdr"></p>
+            </div>
+        </div>
+
+
+        </div>
+    </div>
+
+    <!-- =========================================================
+    |  Project 
+    ========================================================== -->    
+    <div id="project" style="position:relative;">
+        <div class="container" >
+            <div class="col-lg-12 col-lg-offset-2 text-center" style="background-color: white; padding-top: 65px;">
+            <h2 class="section-heading">We've got what you need! Our projects</h2>
+            <hr class="light">
+            <p class="text-faded">CEA has been in operation for 33 years and during this period has been involved in major 
+                and medium scale projects in Sri Lanka by itself and in association with other consultants, local and international.
+            </p>
+            </div>
+            <div id="projectCards"></div>
+        </div>
+
+        <!-- =========================================================
+        |  Searchbar - Projects search    
+        ========================================================== -->
+        <a href="#0"><div id="projectSearchbarmarker" class="searchbarmarker"></div></a>
+        <div id="projectSearchbar" class="searchbar">
+            <button id="projectSearchBtn" type="button" class="btn btn-rounded btn-sm">Search</button>
+            <div id="checkboxes"></div>
+        </div>            
+    </div>
+
+    <!-- =========================================================
+    |  Project detail   
+    ========================================================== -->      
+    <div id="project-detail" style="display:none; position:relative; padding-top: 65px;">  
+        <div class="container" style="padding-top: 15px;">
+            <h2 class="section-heading project-detail-heading text-center">Projects Detail</h2>
+            <div class="col-lg-12 col-lg-offset-2 text-center" >
+            <hr class="light">
+            <p class="text-faded">CEA has been in operation for 33 years and during this period has been involved in major 
+            and medium scale projects in Sri Lanka by itself and in association with other consultants, local and international.
+            </p>
+            </div>
+            <div class="row">
+            <div id="LCards" class="col-12 col-md-8">
+            </div>
+            <div id="RCards" class="col-12 col-md-4">
+            </div>
+            </div>
+        </div>
+
+        <!-- =========================================================
+        |  Sidebar menu - Project detail   
+        ========================================================== -->
+        <a href="#0"><div id="projectDetailSidebarmarker" class="sidebarmarker"></div></a>
+        <div id="projectDetailSidebar" class="sidebar">
+            <a href="#0"><div class="sidebar-item">About</div></a>
+            <a href="#0"><div class="sidebar-item">Services</div></a>
+            <a href="#0"><div class="sidebar-item">Clients</div></a>
+            <a href="#0"><div class="sidebar-item">Contact</div></a>
+        </div>    
+    </div>    
+
+    <!-- =========================================================
+    |  Contact   
+    ========================================================== -->      
+    <div id="contact" class='container-fluid' style="padding: unset;">
+        <div class="xcard">
+        <div class="heading text-center">
+            <div class="head1">Let's Get In Touch!</div>
+            <p class="bdr"></p>
+        </div>
+        <div class="card-body">
+            <div class="row m-0 pt-5">
+                <div class="xcard col-12 col-md-3">
+                    <div class="card-content">
+                    <i class="fa fa-home fa-3x wow bounceI"></i>
+                    <div class="card-title"> ABOUT </div>
+                    <p><small>The firm has undertaken over 100 projects in fields of highways and transport, 
+                        water supply and drainage, solid waste treatment, storm water drainage, town development, 
+                        parking facilities, housing development and design of office, factory and hospital buildings.</small>
+                    </p>
+                    <div class="learn-more">
+                        <p> <small> LEARN MORE <label><i class="fa fa-angle-right"></i></label> </small> </p>
+                    </div>
+                    </div>
+                </div>
+                <div class="xcard col-12 col-md-3">
+                    <div class="card-content">
+                    <i class="fa fa-plug fa-3x wow bounceI"></i>
+                    <div class="card-title"> SERVICES </div>
+                    <p><small>CEA has been in operation for 33 years and during this period has been involved in major and medium 
+                        scale projects in Sri Lanka by itself and in association with other consultants, local and international.</small>
+                    </p>
+                    <p><small>CEA is a member of the consortium, in association with the Pacific Consultants International of Japan, 
+                        Oriental Consultants Ltd. of Japan and two other local firms, that was awarded the Construction 
+                        Supervision Consultancy for Outer Circular Highway Project in Sri Lanka.</small>
+                    </p>
+                    <div class="learn-more">
+                        <p> <small> LEARN MORE <label><i class="fa fa-angle-right"></i></label> </small> </p>
+                    </div>
+                    </div>
+                </div>
+                <div class="xcard col-12 col-md-3">
+                    <div class="card-content">
+                    <a href="https://goo.gl/maps/xSgpKen1HocqzrpDA" target="_blank" ><i class="fa fa-map-marker fa-3x wow bounceIn"></i></a>   
+                    <div class="card-title"> LOCATION </div>
+                    <p class="mid-row"><small>No. 100/1, Thalapathpitiya Road</small></p>
+                    <p class="mid-row"><small>Madiwela, Kotte</small></p>
+                    <p>Sri Lanka</p>
+                    <div class="learn-more">
+                        <p> <small> LEARN MORE <label><i class="fa fa-angle-right"></i></label> </small> </p>
+                    </div>
+                    </div>
+                </div>
+                <div class="xcard col-12 col-md-3">
+                    <div class="card-content">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn"></i>
+                    <div class="card-title"> STAY<br /> CONTACT </div>
+                    <p class="mid-row"><small>Tel: +94 225 624 503</small></p>
+                    <p class="mid-row"><small>Fax: +94 222 799 010</small></p>
+                    <p class="mid-row"><small>Email: mail@ceaconsult.com</small></p>
+                    <p><small>Web: www.ceaconsult.com</small></p>
+                    <div class="learn-more">
+                        <p> <small> LEARN MORE <label><i class="fa fa-angle-right"></i></label> </small> </p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer row m-0">
+            <p> <label> <i class="fa fa-phone fa-rotate-90 text-primary"></i> </label>+94 226 735 612</p>
+            <div>
+                <p> <small class="follow-text">FOLLOW US ON SOCIAL MEDIA</small> <label class="footer-right"> <i class="fa fa-instagram"></i> <i class="fa fa-facebook-square"></i> <i class="fa fa-linkedin"></i> <i class="fa fa-twitter-square"></i> </label> </p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- =========================================================
+    |  JS files    
+    ========================================================== -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->    
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+
+    <script src="bootstrap-4.4.1-dist/js/optional/jquery-3.4.1.slim.min.js"></script>
+    <script src="bootstrap-4.4.1-dist/js/optional/popper.min.js"></script>
+    <script src="bootstrap-4.4.1-dist/js/optional/bootstrap.min.js"></script> 
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js" integrity="sha512-YYiD5ZhmJ0GCdJvx6Xe6HzHqHvMpJEPomXwPbsgcpMFPW+mQEeVBU6l9n+2Y+naq+CLbujk91vHyN18q6/RSYw==" crossorigin="anonymous"></script> -->
+
+    <script type='text/javascript' src='data.js'></script> 
+    <script type='text/javascript' src='cea.js'></script> 
+
+    <script>
+        // PWA config
+        "serviceWorker" in navigator && window.addEventListener("load", (() => {
+            navigator.serviceWorker.register("./serviceworker.js")
+            .then((e => console.log("Success", e.scope)))
+            .catch((e => console.log("Failier", e)))
+        }))    
+    </script>
+    
+
+    </body>
+</html>
+

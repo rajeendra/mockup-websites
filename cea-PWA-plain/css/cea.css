@@ -1,0 +1,502 @@
+/* body { padding-top: 70px; } */
+  
+:root {
+  --blue: #6495ed;
+  --white: #faf0e6;
+  --primary-background-color: #1c114d;
+  --primary--color: white;
+  --searchbar-background-color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-primary {
+    /* background-color: #4d1146 !important; */
+    /* background-color: #1c114d !important; */
+    background-color: var(--primary-background-color) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Exo 2", sans-serif;
+  text-transform: uppercase;
+}        
+
+h3 {
+font-size: 36px;
+font-weight: 300;
+color: #fff;
+/* position: relative; */
+display: block;
+margin: 0 0 3px 0;
+padding-bottom: 13px;
+line-height: 1.2;
+}
+
+xxxh3:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #f17245;
+  left: 0;
+  margin-left: -25px;
+  bottom: 0;
+}
+
+h3 span {
+  color: #f17245;
+  display: block;
+}
+
+h3 span span {
+  color: #fff;
+  display: inline-block;
+}
+
+.js .to-animate, .js .to-animate-2, .js .animate-box {
+  opacity: 0;
+}
+
+.dropdown-item:hover {
+    /* color: white; */
+    color: darkcyan;
+    text-decoration: none;
+    /* background-color: #1c6eee; */
+    background-color: lightblue
+}
+
+/*  <ul class="dropdown-menu" style="background-color: #c2e3ee;"> */
+.dropdown-background-color{
+    background-color: #c2e3ee;    
+}
+
+.dropdown-color{
+    color: darkcyan;  
+}
+
+/* <li><a class="dropdown-item" style="color: darkcyan;" href="#" data-toggle="collapse" data-target=".navbar-collapse.show"> Submenu item 1</a></li> */
+
+#project-ltr, #project-nth, #project-sth{
+  padding-top: 60px;
+  height: 600px;
+  /* background-color: pink; */
+}
+
+#about {
+  padding-top: 60px;
+  height: 600px;
+  /* background-color: pink; */
+}
+
+#contact {
+  padding-top: 60px;
+  height: 600px;
+  /* background-color: pink; */
+}        
+
+#section2 {
+  /* height: 600px; */
+  background-color: yellow;
+}
+
+/* section {  background-color: pink;} */
+
+.smart-scroll{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.scrolled-down{
+  transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+  transform:translateY(0); transition: all 0.3s ease-in-out;
+}        
+
+/* <!-- Footer CSS start --> */
+
+
+/* body {
+  background-color: #616161
+} */
+
+.card a{
+  /* font- */
+  color: unset;
+  text-decoration: unset;
+}
+
+.card a:hover {
+  font-weight: 200;
+  color: unset;
+  position: relative;
+  /*text-shadow: 1px 1px 1px #000;*/
+  /* background: #b717cc; */
+}
+
+.xcard {
+  background-color: #616161;
+  color: white;
+  margin-top: 50px;
+  border: none
+}
+
+.head1 {
+  font-weight: 900;
+  font-size: 30px
+}
+
+.bdr {
+  border-bottom: 1.5px solid #FFB74D;
+  width: 65px;
+  margin-right: auto;
+  margin-left: auto
+}
+
+.mid-row {
+  margin: unset;
+}
+
+.card-footer {
+  justify-content: space-between;
+  border: none;
+  background: none;
+  border-bottom: 0.5px solid #9E9E9E
+}
+
+.footer-right>i {
+  margin-left: 15px
+}
+
+.fa-hand-holding-usd {
+  color: #FFB74D
+}
+
+.fa-handshake {
+  color: #FFB74D
+}
+
+.card-title {
+  margin-bottom: .75rem;
+  font-weight: 900;
+  font-size: 15px;
+  margin-top: 1.75rem
+}
+
+.learn-more {
+  color: #FFB74D
+}
+
+.fa-angle-right {
+  margin-left: 10px
+}
+
+.fa-3x {
+  color: #FFB74D
+}
+
+.card-content {
+  padding-right: 40px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px
+}
+
+.card-content>p {
+  color: #9E9E9E
+}
+
+.heading {
+  position: relative;
+  top: 75px
+}
+
+.follow-text {
+  color: #9E9E9E
+}
+/* <!-- Footer CSS end --> */
+
+/*======================*/
+/* ABOUT */
+/*======================*/
+.about-theme{
+  background-color: #20022b; 
+  color: white; 
+  padding-top: 65px;
+} 
+
+#about {
+  background: #115568 url(../images/about-bg.jpg) no-repeat left;
+  background-size: cover;
+  padding: 500px 0 0 0;
+}
+
+#about h3:after {
+  left: 5%;
+  margin-left: -25px;
+  bottom: 0;
+}
+
+#about ul {
+  margin: 80px 0 0 -85px;
+  padding: 0;
+}
+
+#about ul li {
+  list-style-type: none;
+  background: url(../images/bullet.png) no-repeat left 14px;
+  margin: 0 0 20px 0;
+  padding: 0 0 0 185px;
+}
+
+#about ul li span {
+  display: block;
+  border-radius: 3px;
+  padding: 10px 20px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#about ul li span:hover {
+  font-weight: 200;
+  color: #fff;
+  position: relative;
+  /*text-shadow: 1px 1px 1px #000;*/
+  background: #1575a2;
+}
+
+#about ul li span:hover:after {
+  right: 100%;
+  top: 21px;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(255, 255, 255, 0);
+  border-right-color: #1575a2;
+  border-width: 10px;
+  margin-top: -10px;
+}
+
+#about h4 {
+  width: 300px;
+  text-indent: -99999px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-left: -150px;
+  margin-bottom: -40px;
+}
+/*======================*/
+/* 
+/*======================*/
+
+/*======================*/
+/* HOME - start */
+/*======================*/
+header.masthead {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  /* background-image: url("image/header-bg.jpg"); */
+  background-image: url("../image/header-1.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+header.masthead .masthead-company {
+  font-size: 1.5rem;
+  /* font-style: italic; */
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  /* font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  /* font-family: "Impact, fantasy"   "Droid Serif";   */
+}
+
+header.masthead .masthead-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  /* font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  /* font-family: "Impact, fantasy"   "Droid Serif";   */
+}
+
+header.masthead .masthead-heading {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  /* xfont-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  /* font-family: "Impact, fantasy"   "Droid Serif";     */
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+  }
+
+  header.masthead .masthead-company {
+    font-size: 2.25rem;
+    /* font-style: italic; */
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }  
+
+  header.masthead .masthead-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+
+  header.masthead .masthead-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+  }
+}
+/*======================*/
+/* HOME - end */
+/*======================*/
+
+/*======================*/
+/* sidebar - start */
+/*======================*/
+.sidebar {
+  /* height: 500px; */
+  min-height: 400px;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-background-color) ;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  opacity: 0.9;
+  padding-bottom: 30px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebarmarker {
+  height: 50px;
+  width: 15px;
+  position: absolute;
+  z-index: 1;
+  top: 200px;
+  left: 0;
+  background-color: var(--primary-background-color) ;
+  transition: 0.5s;
+  border-radius: 0 10px 10px 0;
+  overflow-x: hidden;
+}  
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+/*======================*/
+/* sidebar - end */
+/*======================*/
+
+/*======================*/
+/* searchbar - start */
+/*======================*/
+.searchbar {
+  /* height: 500px; */
+  min-height: 400px;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--searchbar-background-color) ;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 80px;
+  opacity: 0.9;
+  padding-bottom: 30px;
+}
+
+.searchbar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.searchbar button {
+  float:right;
+  margin-right: 30px;
+  margin-bottom: 15px;
+  border-radius: 25px 25px 25px 25px;
+  color: #616161;
+  border-color: #616161;
+} 
+
+.searchbar button:hover {
+  background-color: #adadad;
+  border-color: #616161;
+}
+
+.search-checkbox {
+  margin-left: 30px; 
+  vertical-align: text-top; 
+  margin-right: 10px;
+}
+
+.searchbarmarker {
+  height: 50px;
+  width: 15px;
+  position: absolute;
+  z-index: 1;
+  top: 300px;
+  left: 0;
+  background-color: var(--searchbar-background-color) ;
+  transition: 0.5s;
+  border-radius: 0 10px 10px 0;
+  overflow-x: hidden;
+  border-style: solid;
+  border-color: var(--searchbar-background-color);
+  border-width: 1px;
+  border-top-color:rgb(87, 86, 86);
+  border-bottom-color:rgb(87, 86, 86);
+  border-right-color:rgb(87, 86, 86);
+}  
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .searchbar {padding-top: 15px;}
+  .searchbar a {font-size: 18px;}
+}
+/*======================*/
+/* searchbar - end */
+/*======================*/
